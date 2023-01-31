@@ -219,6 +219,7 @@
   font-size: 5.2rem;
   color: #fff;
   margin-bottom: 1.6rem;
+  padding: 0 37.8rem;
 }
 .section-mobile-features .info {
   color: #fff;
@@ -476,6 +477,8 @@
 .plan.choosed {
   border-top: 3px solid var(--btn-color);
   box-shadow: 0 2.4rem 4.2rem rgba(68, 68, 68, 0.19);
+  position: relative;
+  overflow: hidden;
 }
 .plan.choosed .btn-plan {
   background-color: var(--btn-color);
@@ -485,6 +488,16 @@
 }
 .plan.choosed .btn-plan:hover {
   background-color: var(--btn-hover-color);
+}
+.plan.choosed::before {
+  position: absolute;
+  content: "Most Popular";
+  right: -16px;
+  background-color: var(--img-background-color);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 2.4rem;
+  border-radius: 10rem;
 }
 .plan-header {
   border-bottom: 1px solid #eee;
@@ -531,12 +544,15 @@
   gap: 0.8rem;
 }
 .plan-icon {
-  width: 1.8rem;
-  height: 1.8rem;
+  font-size: 1.8rem;
   background-color: #1e8dd221;
   border-radius: 50%;
   color: var(--blue-color);
-  padding: 0.2rem;
+  padding: 0.4rem;
+}
+.plan-icon.green {
+  color: var(--green-color);
+  background-color: rgba(72, 202, 102, 0.196);
 }
 .plan-feature p {
   color: var(--heading-color);
