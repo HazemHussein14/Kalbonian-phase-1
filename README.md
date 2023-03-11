@@ -1,6 +1,11 @@
 # Kalbonian Almarsos - HTML/CSS Skills Test Project
 This project is created by Kalbonian Almarsos company, it aims to test your HTML and CSS skills by building a responsive website.
 
+## Live Demo
+You can view a live demo of the website at this link: [Live Demo](https://hazemhussein14.github.io/Kalbonian-phase-1/)
+
+![Screenshot](./Appie.png)
+
 ## Prerequisites
 You will need to have a basic understanding of HTML5 and CSS3, as well as CSS flexbox and CSS grid.
 
@@ -11,8 +16,7 @@ This project uses the following technologies:
 - CSS3
 - CSS Flexbox
 - CSS Grid
-## Live Demo
-You can view a live demo of the website at this link: [Live Demo](https://hazemhussein14.github.io/Kalbonian-phase-1/)
+
 
 ## GitHub Repository
 The project's code can be found on GitHub at this link: [Repo](https://github.com/HazemHussein14/Kalbonian-phase-1)
